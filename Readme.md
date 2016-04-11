@@ -1,6 +1,6 @@
 # Учебный проект «Барбершоп»
 
-* Студент: [Viktor Pushkin](https://up.htmlacademy.ru/htmlcss/13/user/92687).
+* Студент: [Knigin Aleksey](https://htmlacademy.ru/profile/id137691).
 
 ---
 
