@@ -2,11 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy: Барбершоп</title>
   </head>
   <body>
   	<header class="main-header">   <!-- Главная шапка всего сайта -->
-  	  <div class="container"> <!--Центрует содержание всего контейнера -->
+  	  <div class="container clearfix"> <!--Центрует содержание всего контейнера -->
   	    <nav class="main-navigation"> <!-- Контейнер для основного меню(инф,новости,прайс-->
   	      <ul>
   	        <li>
@@ -35,7 +36,7 @@
   	  <div class="index-logo"> <!-- контейнер для логотипа-->
   	    <img src="img/logo.png" width="368" height="204" alt="Барбершоп Бородинский"> <!-- тег img - содержательное изображение-->
   	  </div>
-  	  <section class="features">  <!--Преимущества, поэтому смысловой блок section -->
+  	  <section class="features clearfix">  <!--Преимущества, поэтому смысловой блок section -->
   	    <div class="features-item">
   	      <b class="fetures-name">Быстро</b>
   	      <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и Вы - счастливый обладатель стильной стрижки-минутки!</p>
@@ -49,7 +50,7 @@
   	      <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
   	    </div>
   	  </section>
-  	  <div class="index-content"> <!--Блок содержания главной страницы, если не придумали нормального подходящего названия, называем так -->
+  	  <div class="index-content clearfix"> <!--Блок содержания главной страницы, если не придумали нормального подходящего названия, называем так -->
   	    <div class="index-content-left"> <!-- Левая колонка-->
   	      <h2 class="index-content-title">Новости</h2> <!-- Текст содержательный, поэтому h2-->
   	        <ul class="news-preview"> <!-- Новости - это список новостей-->
@@ -75,7 +76,7 @@
   	      </div>
   	    </div>
    	  </div>
-   	  <div class="index-content">
+   	  <div class="index-content clearfix">
    	  	<div class="index-content-left">
    	  	  <h2 class="index-content-title">Контактная информация</h2>
    	  	  <p>
@@ -104,6 +105,7 @@
    	   	</div>
    	  </div>
   	</main>
+
   	<footer class="main-footer"> <!--главный подвал -->
       <div class="container"> <!--для центровки -->
         <section class="footer-contacts"> <!-- section поэтому смысловые секции-->
@@ -126,5 +128,3 @@
     </footer>
   </body>
 </html>
-
-<!-- 31279-barbershop -->
